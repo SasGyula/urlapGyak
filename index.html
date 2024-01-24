@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Űrlap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sas Gyula</title>
+</head>
+<body>
+    <h1>Mozi</h1>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Néző adatai</legend>
+            <label for="neve">Név:</label>
+            <input type="text" id="neve" name="nev" value="Köröskényi István" size="10"><br>
+            <!-- label for és input id egyezzen meg-->
+            <label for="kedvenc_film">Kedvenc film:</label>
+            <input type="text" id="kedvenc_film" name="nev" value="A hős" size="20">
+            <br>
+            <label for="filmek_szama">Filmek száma/hét:</label>
+            <input type="range" id="filmek_szama" name="nev" oninput="this.form.f_sz.value=this.value" max="20">
+            <input type="number" name="f_sz" size="6" oninput="this.form.filmek_szama.value=this.value" min="0" max="20">
+            <br>
+            <input type="date" name="" id=""><br>
+            <div><input type="submit" value="Küldés"></div>
+        </fieldset> 
+    </form>
+</body>
+</html>

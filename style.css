@@ -1,0 +1,14 @@
+input{
+    margin: 5px;
+}
+input[type=submit]{
+    background-color: lightblue;
+    text-align: center;
+    text-align: center;
+}
+input[type=text]{
+    background-color: lightblue;
+}
+div{
+    text-align: center;
+}
